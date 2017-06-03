@@ -1,422 +1,269 @@
-<!DOCTYPE html>
-<html lang="en" class="no-js">
+<!DOCTYPE HTML>
+<html>
 <head>
-	<meta charset="UTF-8" />
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Photography Website Concept</title>
-	<meta name="description" content="A photography-inspired website layout with an expanding stack slider and a background image tilt effect" />
-	<meta name="keywords" content="photography, template, layout, effect, expand, image stack, animation, flickity, tilt" />
-	<meta name="author" content="Codrops" />
-	<link rel="shortcut icon" href="favicon.ico">
-	<link rel="stylesheet" type="text/css" href="css/normalize.css" />
-	<link rel="stylesheet" type="text/css" href="css/flickity.css" />
-	<link rel="stylesheet" type="text/css" href="css/main.css" />
-	<script src="js/modernizr.custom.js"></script>
+<meta charset="utf-8"> 
+<link rel="stylesheet" type="text/css" href="style.css" />
+<meta name="viewport" content="width=device-width, intial-scale=1.0">
+<link rel="stylesheet" href="css/unslider.css">
+<link rel="stylesheet" href="css/unslider-dots.css">
+<title>Party 3</title>
 </head>
+
 <body>
-	<div class="container">
-		<div class="hero">
-			<div class="hero__back hero__back--static"></div>
-			<div class="hero__back hero__back--mover"></div>
-			<div class="hero__front"></div>
-		</div>
-		<header class="codrops-header">
-			<div class="codrops-links">
-				<a class="codrops-icon codrops-icon--prev" href="http://tympanus.net/Development/InteractiveColoringConcept/" title="Previous Demo"><span>Previous Demo</span></a>
-				<a class="codrops-icon codrops-icon--drop" href="http://tympanus.net/codrops/2015/05/06/photography-website-concept/" title="Back to the article"><span>Back to the Codrops article</span></a>
-			</div>
-			<h1 class="codrops-title">Christian Zana <span>Photography</span></h1>
-			<nav class="menu">
-				<a class="menu__item" href="#"><span>About</span></a>
-				<a class="menu__item menu__item--current" href="#"><span>Work</span></a>
-				<a class="menu__item" href="#"><span>Contact</span></a>
-			</nav>
-		</header>
-		<div class="stack-slider">
-			<div class="stacks-wrapper">
-				<div class="stack">
-					<h2 class="stack-title"><a href="#" data-text="Portraits"><span>Portraits</span></a></h2>
-					<div class="item">
-						<div class="item__content">
-							<img src="img/type1/1.jpg" alt="img01" />
-							<h3 class="item__title">Hoodie stumptown kitsch <span class="item__date">05/05/2015</span></h3>
-							<div class="item__details">
-								<ul>
-									<li><i class="icon icon-camera"></i><span>Canon PowerShot S95</span></li>
-									<li><i class="icon icon-focal_length"></i><span>22.5mm</span></li>
-									<li><i class="icon icon-aperture"></i><span>&fnof;/5.6</span></li>
-									<li><i class="icon icon-exposure_time"></i><span>1/1000</span></li>
-									<li><i class="icon icon-iso"></i><span>80</span></li>
-								</ul>
-							</div>
-						</div>
-					</div>
-					<div class="item">
-						<div class="item__content">
-							<img src="img/type1/2.jpg" alt="img02" />
-							<h3 class="item__title">Retro irony sartorial <span class="item__date">05/05/2015</span></h3>
-							<div class="item__details">
-								<ul>
-									<li><i class="icon icon-camera"></i><span>Canon PowerShot S95</span></li>
-									<li><i class="icon icon-focal_length"></i><span>22.5 mm</span></li>
-									<li><i class="icon icon-aperture"></i><span>&fnof;/5.6</span></li>
-									<li><i class="icon icon-exposure_time"></i><span>1/1000</span></li>
-									<li><i class="icon icon-iso"></i><span>80</span></li>
-								</ul>
-							</div>
-						</div>
-					</div>
-					<div class="item">
-						<div class="item__content">
-							<img src="img/type1/3.jpg" alt="img03" />
-							<h3 class="item__title">Stumptown Brooklyn <span class="item__date">05/05/2015</span></h3>
-							<div class="item__details">
-								<ul>
-									<li><i class="icon icon-camera"></i><span>Canon PowerShot S95</span></li>
-									<li><i class="icon icon-focal_length"></i><span>22.5 mm</span></li>
-									<li><i class="icon icon-aperture"></i><span>&fnof;/5.6</span></li>
-									<li><i class="icon icon-exposure_time"></i><span>1/1000</span></li>
-									<li><i class="icon icon-iso"></i><span>80</span></li>
-								</ul>
-							</div>
-						</div>
-					</div>
-					<div class="item">
-						<div class="item__content">
-							<img src="img/type1/4.jpg" alt="img04" />
-							<h3 class="item__title">Blog dreamcatcher squid  <span class="item__date">05/05/2015</span></h3>
-							<div class="item__details">
-								<ul>
-									<li><i class="icon icon-camera"></i><span>Canon PowerShot S95</span></li>
-									<li><i class="icon icon-focal_length"></i><span>22.5 mm</span></li>
-									<li><i class="icon icon-aperture"></i><span>&fnof;/5.6</span></li>
-									<li><i class="icon icon-exposure_time"></i><span>1/1000</span></li>
-									<li><i class="icon icon-iso"></i><span>80</span></li>
-								</ul>
-							</div>
-						</div>
-					</div>
-					<div class="item">
-						<div class="item__content">
-							<img src="img/type1/5.jpg" alt="img05" />
-							<h3 class="item__title">Meditation pickled mumblecore <span class="item__date">05/05/2015</span></h3>
-							<div class="item__details">
-								<ul>
-									<li><i class="icon icon-camera"></i><span>Canon PowerShot S95</span></li>
-									<li><i class="icon icon-focal_length"></i><span>22.5 mm</span></li>
-									<li><i class="icon icon-aperture"></i><span>&fnof;/5.6</span></li>
-									<li><i class="icon icon-exposure_time"></i><span>1/1000</span></li>
-									<li><i class="icon icon-iso"></i><span>80</span></li>
-								</ul>
-							</div>
-							<p>Images by <a href="https://www.flickr.com/photos/martinaphotography/">martinak15</a></p>
-						</div>
-					</div>
-					<div class="item">
-						<!-- Related demos -->
-						<div class="item__content item__content--related">
-							<p>If you enjoyed this demo you might also like:</p>
-							<a class="media-item" href="http://tympanus.net/Tutorials/SlidingHeaderLayout/">
-								<img class="media-item__img" src="img/related/SlidingHeaderLayout.jpg" />
-								<h3 class="media-item__title">Sliding Header Layout</h3>
-							</a>
-							<a class="media-item" href="http://tympanus.net/Development/ScatteredPolaroidsGallery/">
-								<img class="media-item__img" src="img/related/ScatteredPolaroidGallery.jpg" />
-								<h3 class="media-item__title">Scattered Polaroid Gallery</h3>
-							</a>
-						</div>
-					</div>
-				</div>
-				<div class="stack">
-					<h2 class="stack-title"><a href="#" data-text="Landscape"><span>Landscape</span></a></h2>
-					<div class="item">
-						<div class="item__content">
-							<img src="img/type3/1.jpg" alt="img01" />
-							<h3 class="item__title">Austin flannel salvia <span class="item__date">05/05/2015</span></h3>
-							<div class="item__details">
-								<ul>
-									<li><i class="icon icon-camera"></i><span>Canon PowerShot S95</span></li>
-									<li><i class="icon icon-focal_length"></i><span>22.5 mm</span></li>
-									<li><i class="icon icon-aperture"></i><span>&fnof;/5.6</span></li>
-									<li><i class="icon icon-exposure_time"></i><span>1/1000</span></li>
-									<li><i class="icon icon-iso"></i><span>80</span></li>
-								</ul>
-							</div>
-						</div>
-					</div>
-					<div class="item">
-						<div class="item__content">
-							<img src="img/type3/2.jpg" alt="img02" />
-							<h3 class="item__title">Brunch vegan pickled cred <span class="item__date">05/05/2015</span></h3>
-							<div class="item__details">
-								<ul>
-									<li><i class="icon icon-camera"></i><span>Canon PowerShot S95</span></li>
-									<li><i class="icon icon-focal_length"></i><span>22.5 mm</span></li>
-									<li><i class="icon icon-aperture"></i><span>&fnof;/5.6</span></li>
-									<li><i class="icon icon-exposure_time"></i><span>1/1000</span></li>
-									<li><i class="icon icon-iso"></i><span>80</span></li>
-								</ul>
-							</div>
-						</div>
-					</div>
-					<div class="item">
-						<div class="item__content">
-							<img src="img/type3/3.jpg" alt="img03" />
-							<h3 class="item__title">Blog dreamcatcher squid  <span class="item__date">05/05/2015</span></h3>
-							<div class="item__details">
-								<ul>
-									<li><i class="icon icon-camera"></i><span>Canon PowerShot S95</span></li>
-									<li><i class="icon icon-focal_length"></i><span>22.5 mm</span></li>
-									<li><i class="icon icon-aperture"></i><span>&fnof;/5.6</span></li>
-									<li><i class="icon icon-exposure_time"></i><span>1/1000</span></li>
-									<li><i class="icon icon-iso"></i><span>80</span></li>
-								</ul>
-							</div>
-						</div>
-					</div>
-					<div class="item">
-						<div class="item__content">
-							<img src="img/type3/4.jpg" alt="img04" />
-							<h3 class="item__title">Migas intelligentsia meh <span class="item__date">05/05/2015</span></h3>
-							<div class="item__details">
-								<ul>
-									<li><i class="icon icon-camera"></i><span>Canon PowerShot S95</span></li>
-									<li><i class="icon icon-focal_length"></i><span>22.5 mm</span></li>
-									<li><i class="icon icon-aperture"></i><span>&fnof;/5.6</span></li>
-									<li><i class="icon icon-exposure_time"></i><span>1/1000</span></li>
-									<li><i class="icon icon-iso"></i><span>80</span></li>
-								</ul>
-							</div>
-						</div>
-					</div>
-					<div class="item">
-						<div class="item__content">
-							<img src="img/type3/5.jpg" alt="img05" />
-							<h3 class="item__title">Authentic locavore meditation <span class="item__date">05/05/2015</span></h3>
-							<div class="item__details">
-								<ul>
-									<li><i class="icon icon-camera"></i><span>Canon PowerShot S95</span></li>
-									<li><i class="icon icon-focal_length"></i><span>22.5 mm</span></li>
-									<li><i class="icon icon-aperture"></i><span>&fnof;/5.6</span></li>
-									<li><i class="icon icon-exposure_time"></i><span>1/1000</span></li>
-									<li><i class="icon icon-iso"></i><span>80</span></li>
-								</ul>
-							</div>
-							<p>Images by <a href="https://www.flickr.com/photos/56218409@N03/">Matthias Ripp</a></p>
-						</div>
-					</div>
-					<div class="item">
-						<!-- Related demos -->
-						<div class="item__content item__content--related">
-							<p>If you enjoyed this demo you might also like:</p>
-							<a class="media-item" href="http://tympanus.net/Tutorials/SlidingHeaderLayout/">
-								<img class="media-item__img" src="img/related/SlidingHeaderLayout.jpg" />
-								<h3 class="media-item__title">Sliding Header Layout</h3>
-							</a>
-							<a class="media-item" href="http://tympanus.net/Development/ScatteredPolaroidsGallery/">
-								<img class="media-item__img" src="img/related/ScatteredPolaroidGallery.jpg" />
-								<h3 class="media-item__title">Scattered Polaroid Gallery</h3>
-							</a>
-						</div>
-					</div>
-				</div>
-				<div class="stack">
-					<h2 class="stack-title"><a href="#" data-text="Miscellaneous"><span>Miscellaneous</span></a></h2>
-					<div class="item">
-						<div class="item__content">
-							<img src="img/type2/1.jpg" alt="img01" />
-							<h3 class="item__title">Chambray fingerstache <span class="item__date">05/05/2015</span></h3>
-							<div class="item__details">
-								<ul>
-									<li><i class="icon icon-camera"></i><span>Canon PowerShot S95</span></li>
-									<li><i class="icon icon-focal_length"></i><span>22.5 mm</span></li>
-									<li><i class="icon icon-aperture"></i><span>&fnof;/5.6</span></li>
-									<li><i class="icon icon-exposure_time"></i><span>1/1000</span></li>
-									<li><i class="icon icon-iso"></i><span>80</span></li>
-								</ul>
-							</div>
-						</div>
-					</div>
-					<div class="item">
-						<div class="item__content">
-							<img src="img/type2/2.jpg" alt="img02" />
-							<h3 class="item__title">Chia pop-up meh <span class="item__date">05/05/2015</span></h3>
-							<div class="item__details">
-								<ul>
-									<li><i class="icon icon-camera"></i><span>Canon PowerShot S95</span></li>
-									<li><i class="icon icon-focal_length"></i><span>22.5 mm</span></li>
-									<li><i class="icon icon-aperture"></i><span>&fnof;/5.6</span></li>
-									<li><i class="icon icon-exposure_time"></i><span>1/1000</span></li>
-									<li><i class="icon icon-iso"></i><span>80</span></li>
-								</ul>
-							</div>
-						</div>
-					</div>
-					<div class="item">
-						<div class="item__content">
-							<img src="img/type2/3.jpg" alt="img03" />
-							<h3 class="item__title">Butcher organic ennui <span class="item__date">05/05/2015</span></h3>
-							<div class="item__details">
-								<ul>
-									<li><i class="icon icon-camera"></i><span>Canon PowerShot S95</span></li>
-									<li><i class="icon icon-focal_length"></i><span>22.5 mm</span></li>
-									<li><i class="icon icon-aperture"></i><span>&fnof;/5.6</span></li>
-									<li><i class="icon icon-exposure_time"></i><span>1/1000</span></li>
-									<li><i class="icon icon-iso"></i><span>80</span></li>
-								</ul>
-							</div>
-						</div>
-					</div>
-					<div class="item">
-						<div class="item__content">
-							<img src="img/type2/4.jpg" alt="img04" />
-							<h3 class="item__title">Four loko slow-carb Austin <span class="item__date">05/05/2015</span></h3>
-							<div class="item__details">
-								<ul>
-									<li><i class="icon icon-camera"></i><span>Canon PowerShot S95</span></li>
-									<li><i class="icon icon-focal_length"></i><span>22.5 mm</span></li>
-									<li><i class="icon icon-aperture"></i><span>&fnof;/5.6</span></li>
-									<li><i class="icon icon-exposure_time"></i><span>1/1000</span></li>
-									<li><i class="icon icon-iso"></i><span>80</span></li>
-								</ul>
-							</div>
-						</div>
-					</div>
-					<div class="item">
-						<div class="item__content">
-							<img src="img/type2/5.jpg" alt="img05" />
-							<h3 class="item__title">Biodiesel freegan cardigan <span class="item__date">05/05/2015</span></h3>
-							<div class="item__details">
-								<ul>
-									<li><i class="icon icon-camera"></i><span>Canon PowerShot S95</span></li>
-									<li><i class="icon icon-focal_length"></i><span>22.5 mm</span></li>
-									<li><i class="icon icon-aperture"></i><span>&fnof;/5.6</span></li>
-									<li><i class="icon icon-exposure_time"></i><span>1/1000</span></li>
-									<li><i class="icon icon-iso"></i><span>80</span></li>
-								</ul>
-							</div>
-							<p>Images by <a href="https://www.flickr.com/photos/deanhochman/">Dean Hochman</a></p>
-						</div>
-					</div>
-					<div class="item">
-						<!-- Related demos -->
-						<div class="item__content item__content--related">
-							<p>If you enjoyed this demo you might also like:</p>
-							<a class="media-item" href="http://tympanus.net/Tutorials/SlidingHeaderLayout/">
-								<img class="media-item__img" src="img/related/SlidingHeaderLayout.jpg" />
-								<h3 class="media-item__title">Sliding Header Layout</h3>
-							</a>
-							<a class="media-item" href="http://tympanus.net/Development/ScatteredPolaroidsGallery/">
-								<img class="media-item__img" src="img/related/ScatteredPolaroidGallery.jpg" />
-								<h3 class="media-item__title">Scattered Polaroid Gallery</h3>
-							</a>
-						</div>
-					</div>
-				</div>
-				<div class="stack">
-					<h2 class="stack-title"><a href="#" data-text="Wildlife"><span>Wildlife</span></a></h2>
-					<div class="item">
-						<div class="item__content">
-							<img src="img/type4/1.jpg" alt="img01" />
-							<h3 class="item__title">Kickstarter keffiyeh <span class="item__date">05/05/2015</span></h3>
-							<div class="item__details">
-								<ul>
-									<li><i class="icon icon-camera"></i><span>Canon PowerShot S95</span></li>
-									<li><i class="icon icon-focal_length"></i><span>22.5 mm</span></li>
-									<li><i class="icon icon-aperture"></i><span>&fnof;/5.6</span></li>
-									<li><i class="icon icon-exposure_time"></i><span>1/1000</span></li>
-									<li><i class="icon icon-iso"></i><span>80</span></li>
-								</ul>
-							</div>
-						</div>
-					</div>
-					<div class="item">
-						<div class="item__content">
-							<img src="img/type4/2.jpg" alt="img02" />
-							<h3 class="item__title">Heirloom commodo migas <span class="item__date">05/05/2015</span></h3>
-							<div class="item__details">
-								<ul>
-									<li><i class="icon icon-camera"></i><span>Canon PowerShot S95</span></li>
-									<li><i class="icon icon-focal_length"></i><span>22.5 mm</span></li>
-									<li><i class="icon icon-aperture"></i><span>&fnof;/5.6</span></li>
-									<li><i class="icon icon-exposure_time"></i><span>1/1000</span></li>
-									<li><i class="icon icon-iso"></i><span>80</span></li>
-								</ul>
-							</div>
-						</div>
-					</div>
-					<div class="item">
-						<div class="item__content">
-							<img src="img/type4/3.jpg" alt="img03" />
-							<h3 class="item__title">Austin banjo swag <span class="item__date">05/05/2015</span></h3>
-							<div class="item__details">
-								<ul>
-									<li><i class="icon icon-camera"></i><span>Canon PowerShot S95</span></li>
-									<li><i class="icon icon-focal_length"></i><span>22.5 mm</span></li>
-									<li><i class="icon icon-aperture"></i><span>&fnof;/5.6</span></li>
-									<li><i class="icon icon-exposure_time"></i><span>1/1000</span></li>
-									<li><i class="icon icon-iso"></i><span>80</span></li>
-								</ul>
-							</div>
-						</div>
-					</div>
-					<div class="item">
-						<div class="item__content">
-							<img src="img/type4/4.jpg" alt="img04" />
-							<h3 class="item__title">Small batch farm-to-table <span class="item__date">05/05/2015</span></h3>
-							<div class="item__details">
-								<ul>
-									<li><i class="icon icon-camera"></i><span>Canon PowerShot S95</span></li>
-									<li><i class="icon icon-focal_length"></i><span>22.5 mm</span></li>
-									<li><i class="icon icon-aperture"></i><span>&fnof;/5.6</span></li>
-									<li><i class="icon icon-exposure_time"></i><span>1/1000</span></li>
-									<li><i class="icon icon-iso"></i><span>80</span></li>
-								</ul>
-							</div>
-						</div>
-					</div>
-					<div class="item">
-						<div class="item__content">
-							<img src="img/type4/5.jpg" alt="img05" />
-							<h3 class="item__title">Ethical leggings semiotics <span class="item__date">05/05/2015</span></h3>
-							<div class="item__details">
-								<ul>
-									<li><i class="icon icon-camera"></i><span>Canon PowerShot S95</span></li>
-									<li><i class="icon icon-focal_length"></i><span>22.5 mm</span></li>
-									<li><i class="icon icon-aperture"></i><span>&fnof;/5.6</span></li>
-									<li><i class="icon icon-exposure_time"></i><span>1/1000</span></li>
-									<li><i class="icon icon-iso"></i><span>80</span></li>
-								</ul>
-							</div>
-							<p>Images by <a href="https://www.flickr.com/photos/usfwsendsp/">USFWS Endangered Species</a></p>
-						</div>
-					</div>
-					<div class="item">
-						<!-- Related demos -->
-						<div class="item__content item__content--related">
-							<p>If you enjoyed this demo you might also like:</p>
-							<a class="media-item" href="http://tympanus.net/Tutorials/SlidingHeaderLayout/">
-								<img class="media-item__img" src="img/related/SlidingHeaderLayout.jpg" />
-								<h3 class="media-item__title">Sliding Header Layout</h3>
-							</a>
-							<a class="media-item" href="http://tympanus.net/Development/ScatteredPolaroidsGallery/">
-								<img class="media-item__img" src="img/related/ScatteredPolaroidGallery.jpg" />
-								<h3 class="media-item__title">Scattered Polaroid Gallery</h3>
-							</a>
-						</div>
-					</div>
-				</div>
-			</div>
-			<!-- /stacks-wrapper -->
-		</div>
-		<!-- /stacks -->
-		<img class="loader" src="img/three-dots.svg" width="60" alt="Loader image" />
+
+<header>
+<base target="_blank">
+	<div class="center-block-main">
+	  <div class="header-top clearfix">
+         <p class="logo">BIRUANG</p>
+           <div class="contakt-basket">
+              <p class="header-phone">
+                   <img src="images/ico-phone.jpg" alt=""> +371 282 20 760
+               </p>
+              <p class="header-basket">
+                 <img src="images/ico-basket.jpg" alt=""> $99.9 <a href="#">Checkout</a>
+              </p>
+           </div>
+	    </div>
+	   <div class="header-bottom clearfix">
+         <nav>
+         	<ul class="menu">
+         		<li><a href="#">HOME</a></li>
+         		<li><a href="#">MEN</a></li>
+         		<li><a href="#">WOMEN</a></li>
+         		<li><a href="#">KIDS</a></li>
+         		<li><a href="#">SALE</a></li>
+         		<li><a href="#">ABOUT ME</a></li>
+         		<li><a href="#">SUPPORT</a></li>
+         	</ul>
+          </nav>
+          <div class="search-block">
+          	<form action="" method="get">
+          		<input type="image" src="images/search-btn.jpg" class="search-btn">
+          		<input type="search" class="search" placeholder="Пошук...">
+          	</form>
+          </div>
+        </div>
 	</div>
-	<!-- /container -->
-	<!-- Flickity v1.0.0 http://flickity.metafizzy.co/ -->
-	<script src="js/flickity.pkgd.min.js"></script>
-	<script src="js/smoothscroll.js"></script>
-	<script src="js/main.js"></script>
+</header>
+
+<div class="my-slider center-block-main">
+	<ul>
+		<li>
+			<h2>RIGHT IS PINK. <br>LEFT IS BLUEI</h2>
+			<p>nspired by Brasil’s bold colors and matching up to football’s on-pitch<br> playmakers, these kicks are ready to stand out.</p>
+			<img src="images/slide1.jpg" alt="">
+		</li>
+
+		<li>
+		    <h2>RIGHT IS PINK. <br>LEFT IS BLUEI</h2>
+			<p>nspired by Brasil’s bold colors and matching up to football’s on-pitch<br> playmakers, these kicks are ready to stand out.</p>
+			<img src="images/slide1.jpg" alt="">
+		</li>
+		
+		<li>
+		<h2>RIGHT IS PINK. <br>LEFT IS BLUEI</h2>
+			<p>nspired by Brasil’s bold colors and matching up to football’s on-pitch<br> playmakers, these kicks are ready to stand out.</p>
+			<img src="images/slide1.jpg" alt="">
+	    </li>
+	</ul>
+</div>
+
+<div class="block3-main center-block-main clearfix">
+    <article>
+    	<a href="$$$@@#" alt="clik:)"><img src="images/img31.jpg" alt=""></a>
+    	<h2><a href="#">FOOTBALL SHOES</a></h2>
+    	<p>Lorem ipsum dolor sit amet, consectetur adipiscing, vivamus congue nulla leo, quis imperdiet magna.</p>
+    </article>
+    <article>
+    	<a href="$$$@@#" alt="clik:)"><img src="images/img32.jpg" alt=""></a>
+    	<h2><a href="#">MODERN CLOTHES</a></h2>
+    	<p>Lorem ipsum dolor sit amet, consectetur adipiscing, vivamus congue nulla leo, quis imperdiet magna.</p>
+    </article>
+    <article>
+    	<a href="$$$@@#" alt="clik:)"><img src="images/img33.jpg" alt=""></a>
+    	<h2><a href="#">BAGS & ACCESSORIES</a></h2>
+    	<p>Lorem ipsum dolor sit amet, consectetur adipiscing, vivamus congue nulla leo, quis imperdiet magna.</p>
+    </article>
+</div>
+
+
+
+<div class="block4-section center-block-main"> 
+    <h2>Popular roducts</h2>
+    <div class="block4-main clearfix">
+    <article>
+    	<a href="#" alt=""><img src="images/img41.jpg" alt=""></a>
+    	<div class="block4-main-content">
+    	<h2><a href="@"> NIKE TAILWIND LOOSE</a></h2>
+    	<h3>RUNNING TANK TOP</h3>
+    	<p>The Nike Tailwind Loose Women's Running Tank Top<br> is made with sweat-wicking fabric to help you stay<br> dry and comfortable on your run.</p>
+
+    	<p class="price-basket clearfix">
+    	<span class="price">$ 36.99</span>
+    	<spam class="basket-btn"><a href="@"><img src="images/ico-plus.jpg" alt=""></a></spam>
+    	</p>
+    </div>
+    </article>
+
+    <article>
+    	<a href="#" alt=""><img src="images/img42.jpg" alt=""></a>
+    	<div class="block4-main-content">
+    	<h2><a href="@">NIKE G87</a></h2>
+    	<h3>RUNNING TANK TOP</h3>
+    	<p>The Nike Tailwind Loose Women's Running Tank Top<br> is made with sweat-wicking fabric to help you stay<br> dry and comfortable on your run.</p>
+
+    	<p class="price-basket clearfix">
+    	<span class="price">$ 36.99</span>
+    	<spam class="basket-btn "><a href="@"><img src="images/ico-plus.jpg" alt=""></a></spam>
+    	</p>
+    	</div>
+    </article>
+    <article>
+    	<a href="#" alt=""><img src="images/img43.jpg" alt=""></a>
+    	<div class="block4-main-content">
+    	<h2><a href="@">NIKE I-BEAM SWOOSH</a></h2>
+    	<h3/>RUNNING TANK TOP</h3>
+    	<p>The Nike Tailwind Loose Women's Running Tank Top is<br> made with sweat-wicking fabric to help you stay<br> dry and comfortable on your run.</p>
+
+    	<p class="price-basket clearfix">
+    	<span class="price">$ 36.99</span>
+    	<spam class="basket-btn"><a href="@"><img src="images/ico-plus.jpg" alt=""></a></spam>
+    	</p>
+    	</div>
+    </article>
+    <article>
+    	<a href="#" alt=""><img src="images/img44.jpg" alt=""></a>
+    	<div class="block4-main-content">
+    	<h2><a href="@">NIKE LUX</a></h2>
+    	<h3>RUNNING TANK TOP</h3>
+    	<p>The Nike Tailwind Loose Women's Running Tank Top is<br> made with sweat-wicking fabric to help you stay<br> dry and comfortable on your run.</p>
+
+    	<p class="price-basket clearfix">
+    	<span class="price">$ 36.99</span>
+    	<spam class="basket-btn"><a href="@"><img src="images/ico-plus.jpg" alt=""></a></spam>
+    	</p>
+    	</div>
+    </article>
+  </div>
+  </div>
+
+<div class="about center-block-main clearfix">
+    <article>
+    	<h2>About</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam dictum lectus sit amet varius pulvinar. Proin vitae dui tincidunt nibh facilisis pellentesque. Fusce tortor turpis, facilisis ut condimentum eu, sagittis at est.</p>
+
+        <p>Praesent egestas posuere urna a egestas. Maecenas facilisis orci vitae ante tempor accumsan. Aenean aliquam justo ac sagittis vehicula. Nam mattis pretium odio sit amet vulputate.</p>
+
+        <p>Quisque non lobortis orci. Morbi augue mauris, ultrices at fermentum ac, consequat vitae magna. Pellentesque non cursus mi, eu cursus nunc. Nullam et odio tristique, volutpat urna vitae, dignissim orci. Fusce eu nulla urna. This template was created by Erik Padamans.</p>
+        <p>Praesent egestas posuere urna a egestas. Maecenas facilisis orci vitae ante tempor accumsan. Aenean aliquam justo ac sagittis vehicula. Nam mattis pretium odio sit amet vulputate.</p>
+     </article>
+   <div class="map">
+      <div class="mapin"> 
+   	    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d26433.566302293217!2d-118.34115524760743!3d34.09012449016876!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2bf07045279bf%3A0xf67a9a6797bdfae4!2z0JPQvtC70LvRltCy0YPQtCwg0JvQvtGBLdCQ0L3QtNC20LXQu9C10YEsINCa0LDQu9GW0YTQvtGA0L3RltGPLCDQodC_0L7Qu9GD0YfQtdC90ZYg0KjRgtCw0YLQuCDQkNC80LXRgNC40LrQuA!5e0!3m2!1suk!2sua!4v1480362441514"  frameborder="0" style="border:0" allowfullscreen></iframe>
+   	  </div>
+   </div>
+</div>
+
+<div class="subscribe">
+   <div class="center-block-main clearfix">
+   	<h2><strong>SIGN UP</strong> FOR EXCLUSIVE SALES AND PRODUCT NEWS</h2>
+   	<div class="subscribe-form">
+   		<form action="" method="get">
+   		      <input type="email" class="email-inpt" placeholder="google@gmail.com">
+   		      <input type="submit" class="submit-inpt" value="Sign Up">
+   		</form>
+   	</div>
+   </div>
+</div>
+
+<footer class="ftr">
+	<div class="block4-main center-block-main clearfix">
+       <article>
+       	<h2>OUR STORES</h2>
+       	 <div class="ftr-block-content">
+          <p>Feel free to visit our stores or 
+          contact us. 1401 South Grand Avenue Los Angeles, CA 90015 (213) 748-2411</p>
+         <p>100 Fairview Drive Franklin, 
+         VA 23851 (757) 569-6100</p>
+         </div>
+       </article>
+	
+
+	
+       <article>
+       	<h2>BLOG POSTS</h2>
+       	 <div class="ftr-block-content">
+          <h3><a href="#"> Justin Bieber confirmed that he is gay.</a></h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed auctor elit.</p>
+          <h3><a href="#">Justin Bieber confirmed that he is gay.</a></h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed auctor elit.</p>
+       	 </div>
+       </article>
+	
+
+		
+       <article>
+       	<h2>SUPPORT</h2>
+       	 <div class="ftr-block-content">
+       	  <p class="support">
+       	   <a href="#">Terms & Conditions</a>
+       	   <a href="#">FAQ</a>
+       	   <a href="#">Payment</a>
+       	   <a href="#">Refunds</a>
+       	   <a href="#">Track Order</a>
+       	   </p>
+
+       	   <p class="support">
+       	   <a href="#">Services</a>
+       	   <a href="#">Privacy & Security</a>
+       	   <a href="#">Careers</a>
+       	   <a href="#">Press</a>
+       	   </p>
+       	  </div>
+       </article>
+	
+
+		
+       <article>
+       	<h2>CONTACT US</h2>
+       	 <div class="ftr-block-content">
+           <form>
+           	<input class="ftrmail" type="email" placeholder="you e-mail...">
+           	<textarea class="ftrtext" placeholder="your text..."></textarea>
+           	<input class="ftrsubmit" type="submit" value="Send Messange">
+           </form>
+       	 </div>
+       </article>
+	</div>
+</footer>
+
+
+<script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+<script src="js/unslider-min.js"></script>
+<script>
+		jQuery(document).ready(function($) {
+			$('.my-slider').unslider({
+				autoplay:true, 
+				arrows:false,
+              });
+
+		});
+	</script>
+
+
+<script>
+	function setEqualHeight(columns) { 
+		var tallestcolumn = 0; 
+		columns.each( function() { 
+			currentHeight = $(this).height(); 
+			if(currentHeight > tallestcolumn) { tallestcolumn = currentHeight; } } ); 
+			columns.height(tallestcolumn); 
+		} 
+		
+		$(document).ready(function() { setEqualHeight($(".block4-main-content")); });
+</script>
+
 </body>
 </html>
+
